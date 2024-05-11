@@ -1,5 +1,4 @@
 package com.example.electricitycalculatorapplication;
-
 import android.view.MenuItem;
 import android.os.Bundle;
 import android.text.Editable;
@@ -17,8 +16,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 public class MainActivity extends AppCompatActivity {
+
     EditText editTextUnits, editTextRebate;
-    TextView textViewResult;
+    TextView textViewResult, texting;
     Button buttonCalculate, buttonClear;
 
     @Override
