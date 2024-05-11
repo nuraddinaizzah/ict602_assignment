@@ -135,7 +135,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Calculating charges based on unit slabs
         double charges = 0;
-        if (unitsUsed <= 200) {
+        if (unitsUsed <= 200 && unitsUsed >= 0) {
             charges = unitsUsed * 0.218;
         } else if (unitsUsed <= 300) {
             charges = 200 * 0.218 + (unitsUsed - 200) * 0.334;
