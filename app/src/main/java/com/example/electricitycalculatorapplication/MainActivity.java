@@ -19,7 +19,8 @@ public class MainActivity extends AppCompatActivity {
     EditText editTextUnits, editTextRebate;
     TextView textViewResult, texting;
     Button buttonCalculate, buttonClear;
-
+//first
+    //clear
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
