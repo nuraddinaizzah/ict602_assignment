@@ -16,7 +16,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 public class MainActivity extends AppCompatActivity {
-//first commit when??
     EditText editTextUnits, editTextRebate;
     TextView textViewResult, texting;
     Button buttonCalculate, buttonClear;
