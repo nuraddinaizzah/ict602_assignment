@@ -17,7 +17,7 @@ import androidx.appcompat.widget.Toolbar;
 
 public class MainActivity extends AppCompatActivity {
     EditText editTextUnits, editTextRebate;
-    TextView textViewResult, texting;
+    TextView textViewResult;
     Button buttonCalculate, buttonClear;
 
     @Override
